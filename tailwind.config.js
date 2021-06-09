@@ -10,6 +10,7 @@ module.exports = {
         "bor": "#2d427b",
         "fontText": "#b5c8ff",
         "before":"#2b4286",
+        "men": "#8c9dca",
       },
       width:{
         "bac": "95%",
