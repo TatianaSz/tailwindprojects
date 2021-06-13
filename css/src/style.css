@@ -6,6 +6,9 @@
   .left-menu {
     @apply m-2 relative cursor-pointer rounded-lg p-2 hover:bg-hov;
 }
+.left-menu-clicked {
+    @apply m-2 relative cursor-pointer rounded-lg p-2 bg-clicked shadow-lg;
+}
 }
 @layer utilities {
 .fas{
