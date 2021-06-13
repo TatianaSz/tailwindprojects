@@ -8,6 +8,7 @@
     <link href="../../@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
     <link href="../../@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
     <link href="../../@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
+    
 </head>
 <body class="bg-cover bg-no-repeat">
     <nav class="flex lg:text-3xl text-lg border-b border-bor text-fontText">
@@ -33,8 +34,8 @@
         <div class=" rounded-3xl relative flex sm:flex-row flex-col bg-left my-14">
         <div class=" bg-left sm:relative absolute w-full rounded-3xl text-men lg:text-lg">
             <figure class="m-5 ">
-                <figcaption class="text-center">TECHNOLOGIES<div class="sm:hidden inline"><i class="fas fa-bars "></i></div></figcaption>
-                  <ul class="sm:block hidden">
+                <figcaption class="text-center">TECHNOLOGIES<div id="burger" class="sm:hidden inline cursor-pointer"><i class="fas fa-bars "></i></div></figcaption>
+                  <ul id="toToggle" class="sm:block hidden">
                      <li class="left-menu"><i class="fas fa-angle-right"></i>SLA</li>
                      <li class="left-menu"><i class="fas fa-angle-right"></i>DLP</li>
                      <li class="left-menu"><i class="fas fa-angle-right"></i>FDM</li>
@@ -57,5 +58,6 @@
     <footer>
 
     </footer>
+    <script src="../js/click.js"></script> 
 </body>
 </html>
