@@ -6,4 +6,4 @@ Project is created with:
 * Javascript
 * Tailwind
 
-![tailwind](/.img.jpg)
+![tailwind](./img.jpg)
