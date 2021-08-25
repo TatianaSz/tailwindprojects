@@ -1,4 +1,3 @@
-# a cool place with all my tailwind projects!
 
 ## Technologies
 Project is created with:
@@ -6,4 +5,4 @@ Project is created with:
 * Javascript
 * Tailwind
 
-![tailwind](/.img.png)
+![tailwind](./img.png)
