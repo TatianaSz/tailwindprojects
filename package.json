@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.3.2",
+    "tailwindcss": "^2.2.7",
+    "win-node-env": "^0.4.0"
+  },
+  "scripts": {
+    "prod": "NODE_ENV=production npx tailwindcss build -i ./tailwindprojects/src/style.css -o ./tailwindprojects/public/tailwind.css",
+    "build": "tailwindcss build -i ./tailwindprojects/src/style.css -o ./tailwindprojects/public/tailwind.css"
+  }
+}
